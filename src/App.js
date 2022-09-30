@@ -16,7 +16,7 @@ function App(pros) {
 								key={index}
 								path={route.path}
 								element={
-									<Layout>
+									<Layout lang={pros.lang}>
 										<Page lang={pros.lang} />
 									</Layout>
 								}
